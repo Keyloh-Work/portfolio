@@ -1,0 +1,180 @@
+@charset "utf-8";
+
+@media (max-width: 1440px) {
+
+    
+
+    .svganimeblock {
+        width: 40vw;
+        height: auto;
+    }
+
+    .container-contents p,a{
+        padding-left: 30px;
+    }
+
+    
+}
+
+@media (max-width: 1015px){
+
+    .navigation{
+        display: none;
+    }
+
+    .header-logo{
+        font-family: 'Raleway';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 36px;
+        line-height: 48px;
+        letter-spacing: 0.05em;
+        color: var(--white-1);
+    }
+
+    .container-contents{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 0px 0px;
+    }
+
+    .heading{
+        font-family: 'Raleway';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 36px;
+        line-height: 45px;
+        color: var(--white-1);
+    }
+
+    .h1-style{
+        font-family: 'Raleway';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 36px;
+        line-height: 42px;
+        letter-spacing: 0.05em;
+        color: var(--white-1);
+    }
+    
+    .h2-style{
+        font-family: 'Raleway';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 24px;
+        line-height: 32px;
+        letter-spacing: 0.1em;
+        color: var(--white-1);
+    }
+    
+    .h3-style{
+        font-family: 'Raleway';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 24px;
+        line-height: 32px;
+        letter-spacing: 0.1em;
+        color: var(--white-1);
+        margin: 15px 0px;
+    }
+
+    .main-visual{
+        
+
+    }
+
+    .about-container{
+        height: auto;
+        width: 80%;
+        margin: 0 auto;
+        padding-top: 50px;
+    }
+
+    .container-contents p,a{
+        padding-left: 30px;
+    }
+
+    .item{
+        display: flex;
+        flex-direction: column;
+        padding-top: 20px;
+    }
+
+    .portfolio-left{
+        margin: 0 auto;
+        width: 70%;
+        height: auto;
+    }
+    
+    .portfolio-right{
+        margin: 0 auto;
+        width: 70%;
+        height: auto;
+    }
+
+    .footer-container{
+        height: auto;
+        width: 50%;
+        margin: 0 auto;
+        padding: 0;
+    }
+}
+
+@media (max-width: 685px){
+
+    .section-wrapper{
+        width: 100%;
+        height: auto;
+        text-align: center;
+        margin: 0 auto;
+        padding: 30px 0px;
+    }
+
+    .header-logo{
+        font-family: 'Raleway';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 28px;
+        line-height: 36px;
+        letter-spacing: 0.05em;
+        color: var(--white-1);
+    }
+
+    .svganimeblock {
+        width: 80vw;
+        height: auto;
+    }
+
+    .heading{
+        font-family: 'Raleway';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 28px;
+        line-height: 36px;
+        color: var(--white-1);
+    }
+
+    .about-other{
+        display: flex;
+        flex-direction: column;
+        margin: 0 auto;
+        width: 80%;
+    }
+
+    .portfolio-left{
+        margin: 0 auto;
+        width: 100%;
+        height: auto;
+    }
+
+    .container-contents p,a{
+        padding: 0;
+    }
+}
+
+@media (min-width:1015px) {
+    .openbtn{
+        display: none;
+    }
+}
